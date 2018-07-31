@@ -1,0 +1,89 @@
+body {
+    font-family: "Playfair Display", serif;
+    color: #626262;
+  }
+  .wrapper {
+    box-sizing: border-box;
+    width: 1200px;
+    padding: 0 150px 0 150px;
+    margin: auto;
+  }
+  
+  .main-menu {
+    padding-left: 0px;
+    margin: auto;
+    width: 900px;
+    height: 15px;
+    margin-top: 77px;
+    margin-bottom: 105px;
+  }
+  .main-menu-item {
+    display: inline-block;
+  }
+  
+  .main-menu-item a {
+    color: #626262;
+    text-decoration: none;
+    margin-left: 128px;
+    font-size: 24 px;
+    text-transform: capitalize;
+    text-transform: uppercase;
+    margin-bottom: 105px;
+  }
+  .main-menu-item a:hover {
+    color: #03a9f4;
+  }
+  
+  .lifestyle {
+    display: inline-block;
+    width: 420px;
+    float: left;
+    margin-bottom: 135px;
+  }
+  
+  .lifestyle2 {
+    display: inline-block;
+    padding-left: 60px;
+    width: 420px;
+    margin-bottom: 135px;
+  }
+  
+  .photodiary {
+    display: inline-block;
+    float: left;
+    width: 420px;
+    margin-bottom: 135px;
+  }
+  .photodiary2 {
+    display: inline-block;
+    padding-left: 60px;
+    width: 420px;
+    margin-bottom: 135px;
+  }
+  
+  .lifestyle3 {
+    display: inline-block;
+    width: 420px;
+    margin-bottom: 135px;
+    float: left;
+  }
+  .lifestyle4 {
+    display: inline-block;
+    padding-left: 60px;
+    width: 420px;
+    margin-bottom: 135px;
+  }
+  button{
+    border: 1px solid  #626262;
+  font-family: "Playfair Display", serif;
+  font-size: 24px;
+  box-sizing: border-box;
+  padding: 15px 35px 15px 35px;
+  background-color: white;
+  color: #626262;
+  margin-left: auto;
+  margin-right: auto;}
+  .button {padding-left: 
+    340px;
+    margin-left: auto;
+    margin-right: auto;}
