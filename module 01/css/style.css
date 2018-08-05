@@ -1,0 +1,45 @@
+html{
+    box-sizing: border-box; /*Свойства width и height включают в себя значения полей и границ, но не отступов (margin). Эта модель используется браузером Internet Exporer в режиме несовместимости.*/
+}
+img{
+    display: block; 
+    max-width: 100%;
+    height: auto;
+}
+
+*,
+*::before,
+*::after{
+box-sizing: inherit; /* наслудуется от родителя*/
+}
+.wrapper{
+    width: 900px;
+    margin: 0 auto;
+    }
+    /* SITE NAVIGATION*/
+    .site-navigation {
+        font-size: 14px;
+        font-family: 'Playfair Display', serif;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+                list-style: none;
+    }
+    .site-navigation li{
+        display: inline-block;
+        margin-right: 120px;
+    }
+    .site-navigation li:last-child{
+        margin-right: 0;
+        }
+        .page-header{
+            padding-bottom: 102px;
+        }
+        .page-nav{
+            padding: 28px 0;
+        }
+        .item{
+            display: inline-block;
+            width: 420px;
+            
+        }
