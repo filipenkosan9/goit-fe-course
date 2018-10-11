@@ -1,0 +1,373 @@
+
+header{
+    width: 1114px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    font-family: 'Open Sans';
+    padding: 10px 0 100px;
+}
+
+
+.logo-span{
+    color: #1abc9c;
+    font-weight: 900;
+}
+.logo{
+    font-family: 'Roboto';
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 200;
+    float: left;
+    cursor: pointer;
+    list-style-type: none;
+    margin-right: 432px;
+}
+.nav-bar{
+    text-transform: uppercase;
+    margin-top: 10px;
+    font-weight:bold;
+    float: left;
+    cursor: pointer;
+    list-style-type: none;
+    margin-left: 32px;
+}
+
+.tours{
+    width: 100%;
+    height: 600px;
+    background-image:  url(img/Rectangle-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+
+.wrapper{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -67%);
+    margin: auto;
+}
+
+.left-button{
+    width: 105px;
+    height: 105px;
+    background-color: rgba(85, 166, 142, 0.651);
+    color: #ffffff;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    font-size: 50px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 104px;
+    cursor: pointer;
+}
+.right-button{
+    width: 105px;
+    height: 105px;
+    background-color: rgba(85, 166, 142, 0.651);
+    color: #ffffff;
+    position: absolute;
+    left: 1025px;
+    top: 0px;
+    font-size: 50px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 104px;
+    cursor: pointer;
+}
+
+.img-text{
+    font-size: 60px;
+    font-weight: 900;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    min-width: 1134px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.img-list{
+    font-size: 25px;
+    text-transform: uppercase;
+    position: absolute;
+    left: 192px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.title{
+    font-size: 48px;
+    font-weight: 900;
+    color: #515151;
+    font-family: "Roboto";
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+.wrapper-new-collection{
+    background-color: #e9f0fd;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+.container{
+    width: 1152px;
+    margin: auto;
+}
+
+
+.decoration{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    width: 165px;
+    height: 7px;
+    background: rgb(98,202,178);
+}
+
+.card{
+    position: relative;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.product-info{
+    width: 255px;
+    height: 40px;
+    position: absolute;
+    top: 282px;
+   
+}
+
+
+.name-tag{
+    color: white;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 900;
+    width: 200px;
+    height: 40px;
+    background: rgb(50,50,50);
+    float: left;
+    cursor: pointer;
+}
+
+
+
+.price-tag{
+    cursor: pointer;
+    float: left;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 900;
+    width: 55px;
+    height: 40px;
+    background: rgb(135,144,141);
+    color: white;
+}
+
+.info-text{
+  margin-left: 15px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  
+}
+.info-price{
+  margin-left: 14px;
+  margin-top: 9px;
+  
+}
+
+.hover-card{
+    position: absolute;
+    width: 235px;
+    height: 261px;
+    background-color: rgb(0, 0, 0, 0.5);
+    top: 10px;
+    right: 10px;
+    bottom: 10px;
+    left: 10px;
+    display: none;  
+    
+}
+
+
+.item-1{
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 34px;
+    top: 80px;
+    border: 1px solid white;
+    margin-right: 9px;
+}
+.item-2{
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 93px;
+    top: 80px;
+    border: 1px solid white;
+    margin-right: 9px;
+}
+.item-3{
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 152px;
+    top: 80px;
+    border: 1px solid white;
+    margin-right: 9px;
+}
+
+.icon{
+    width: 38px;
+    height: 38px;
+    transform: translate(15%, 15%);
+}
+
+.item-add{
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    font-family: 'OpenSans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    background-color: transparent;
+    width: 168px;
+    height: 50px;
+    outline: none;
+    position: absolute;
+    left: 34px;
+    top: 140px;
+    border: 1px solid white;
+    margin-right: 9px;
+}
+.icon-add{
+    position: absolute;
+    left: 8px;
+    top: 5px;
+    width: 35px;
+    height: 35px;
+    
+}
+
+.span-add{
+    position: absolute;
+    left: 50px;
+    top: 15px;
+}
+
+footer{
+    width: 100%;
+    height: 55px;
+    background-color: rgb(50,50,50);
+    padding-top: 46px;
+}
+
+.wrapper-contact{
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.contact{
+    text-align: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+a{
+  text-decoration: none;   
+}
+
+.span-contact{
+    color: #1abc9c;
+    text-decoration: none; 
+}
+
+.item-1:hover{
+    
+    background-color: rgb(26, 188, 156);
+    transition: 0.5s;
+}
+.item-2:hover{
+    
+    background-color: rgb(26, 188, 156);
+    transition: 0.5s;
+}
+.item-3:hover{
+    
+    background-color: rgb(26, 188, 156);
+    transition: 0.5s;
+}
+
+.nav-bar:hover{
+    color: #1abc9c;
+}
+
+.card:hover .hover-card{
+    position: absolute;
+    width: 235px;
+    height: 261px;
+    background-color: rgb(0, 0, 0, 0.5);
+    top: 10px;
+    right: 10px;
+    bottom: 10px;
+    left: 10px; 
+    display: block;
+    transition: 0.5s;
+}
+
+.item-add:hover {
+    cursor: pointer;
+    background-color: #323232;
+    transition: 0.5s;
+}
+
+.card:hover .product-info .name-tag{
+    
+    background-color: #1abc9c;
+    cursor: pointer;
+}
+.card:hover .product-info .price-tag{
+    
+    background-color: #7fd9c7;
+    cursor: pointer;
+    
+}
+
+
+@media screen and (max-width: 1150px)  {
+    main{
+    width: 100%;
+    height: 600px;
+    background-image:  url(img/Rectangle-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+    footer{
+    position: fixed;
+    bottom: 2px;
+    width: 100%;
+    height: 55px;
+    background-color: rgb(50,50,50);
+    padding-top: 46px;
+}
+}
+

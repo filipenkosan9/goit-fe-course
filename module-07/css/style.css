@@ -1,0 +1,232 @@
+header{
+    margin: auto;
+    width: 970px;
+    padding-bottom: 47px;
+    margin-bottom: 160px;
+    display: flex;
+}
+
+.logo{
+    
+    padding-top: 30px;
+    margin-right: 330px;
+    font-style: normal;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+ol{
+     display: flex; 
+}
+
+a{
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.menu-bar{
+    margin-right: 40px;
+    text-transform: uppercase;
+    padding-top: 55px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.site-info{
+    width: 970px;
+    margin: auto;
+    text-align: center;
+}
+
+.section-title{
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+.title{
+    text-transform: uppercase;
+    margin-bottom: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.about{
+    color: #777;
+    font-family: 'Merriweather', sans-serif;
+    font-style: italic;
+    font-size: 16px;
+}
+
+.wrapper-cards{
+    width: 970px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
+    
+}
+
+.card{
+    width: 310px;
+    height: 264px;
+    margin-right: 50px;
+}
+
+.card-right{
+    width: 310px;
+    height: 264px;
+}
+
+.title-card{
+    margin-bottom: 18px;
+    color: #222;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.info-card{
+    text-align: center;
+    color: #777;
+    font-family: 'Roboto Slab';
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.img{
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+    width: 68px;
+    height: 68px;
+    border-radius: 40px;
+    border: 2px solid rgba(254, 209, 54, 1);
+    margin-left: 105px;
+    margin-bottom: 28px;
+}
+
+.img-basket{
+    background-image: url(D:\GitHub/Modul7/img/Icon-Basket.png);
+}
+
+
+
+.img-laptop{
+    background-image: url(D:\GitHub/Modul7/img/Icon-Laptop.png);
+   
+}
+
+.img-locked{
+    background-image: url(D:\GitHub/Modul7/img/Icon-Locked.png);
+}
+
+.wrapper-contact-form{
+    padding-top: 120px;
+    width: 100%;
+    height: auto;
+    background-image: url(D:\GitHub/Modul7/img/Map%20Image.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    background-color: #222222;
+}
+
+.wrapper{
+    width: 1065px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title-contact{
+    text-transform: uppercase;
+    margin-bottom: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+}
+
+.contact-form{
+    width: 1000px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 214px;
+    justify-content: space-between;
+    align-content: space-between;
+    margin-bottom: 30px;
+}
+
+input{
+    padding-left: 20px;
+    width: 455px;
+    height: 54px;
+    background-color: #fff;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+textarea{
+    padding: 20px 18px;
+    background-color: #fff;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    width: 455px;
+    height: 214px;
+    resize: none;
+    margin-left: 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+form{
+    text-align: center;
+}
+
+button{
+    display: inline-block;
+    width: 240px;
+    height: 66px;
+    background-color: #fed136;
+    border-radius: 3px;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 115px;
+}
+
+input[type='email']:invalid, input[name='name']:invalid {
+    outline: 2px solid #d61a1a;
+}
+
+input[type='email']:default, input[name='name']:default {
+    background-color: #fff;
+    border: 2px solid #cccccc;
+}
+
+input[type='email']:valid, input[name='name']:valid {
+    outline: 2px solid #30C725;
+}
+
+.menu-bar:hover a{
+    color: rgba(254, 209, 54, 1);
+}

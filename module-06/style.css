@@ -1,0 +1,419 @@
+
+header{
+    width: 1200px;
+    height: 65px;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 113px;
+}
+
+.logo{
+    float: left;
+    margin-right: 535px;
+    cursor: pointer;
+}
+
+.bar-menu{
+    font-size: 14px;
+    margin-top: 30px;
+    margin-left: 58px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: rgb(172,231,220);
+    float: left;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+menu{
+    width: 1200px;
+    margin: auto;
+    
+}
+
+.name-section{
+    cursor: pointer;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 24px;
+    font-weight: 400;
+    color: rgba(51, 51, 51, 255);
+    text-align: center;
+    margin-bottom: 22px;
+}
+
+.after-name-section{
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    color: rgba(51, 51, 51, 255);
+    text-align: center;
+    text-transform: uppercase;
+}
+.border-after{
+    width: 60px;
+    height: 3px;
+    background: #f38181;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 42px;
+    margin-bottom: 66px;
+}
+
+.service-position{
+    width: 332px;
+    height: 75px;
+    float: left;
+    margin-bottom: 101px;
+}
+
+.logo-article{
+    width: 32px;
+    height: 66px;
+    float: left;
+    cursor: pointer;
+}
+
+.info{
+    margin-left: 60px;
+    width: 300px;
+    height: 75px;
+    cursor: pointer;
+}
+
+.title{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: rgba(51, 51, 51, 255);
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.info-position{
+    color: rgba(153, 153, 153, 255);
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.service-position-core{
+    margin-bottom: 101px;
+    width: 332px;
+    height: 75px;
+    margin-right: 72px;
+    margin-left: 72px;
+    float: left;
+}
+
+.name-team{
+    
+    font-family: 'Kaushan Script', cursive;
+    font-size: 24px;
+    font-weight: 400;
+    color: rgba(51, 51, 51, 255);
+    text-align: center;
+    margin-top: 425px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.after-name-team-section{
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    color: rgba(51, 51, 51, 255);
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+.border-after-bottom{
+    width: 60px;
+    height: 3px;
+    background: #f38181;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 42px;
+    margin-bottom: 46px;
+}
+
+.about-team{
+    text-align: center;
+    color: rgba(153, 153, 153, 255);
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 80px;
+}
+
+.cards{
+    width: 1200px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 82px;
+    display: flex;
+    justify-content:center;
+}
+
+.card{
+    width: 380px;
+    height: auto;
+    margin-right: 28px;
+    
+    
+}
+
+.name-photo{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(51, 51, 51, 255);
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 31px;
+    margin-bottom: 15px;
+    
+}
+
+.photo-info{
+    color: rgba(153, 153, 153, 255);
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+}
+
+footer{
+    width: 1200px;
+    height: 62px;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #e5e5e5; 
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.maker{
+    color: #f38181;
+    cursor: pointer;
+}
+
+.left-part{
+    font-size: 14px;
+    margin-top: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    
+}
+
+
+
+.mail{
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+    width: 230px;
+    height: 17px;
+    color: #ccc;
+    font-size: 15px;
+    border: 1px solid #e5e5e5;
+    font-style: italic;
+}
+
+button{
+    width: 150px;
+    height: 39px;
+    color: white;
+    background: #95e1d3;
+    border: none;
+    text-transform: uppercase;
+    margin-top: 9px;
+    margin-left: -6px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.photo-team{
+    position: relative;
+}
+
+.photo-team-middle{
+    position: relative;
+}
+.photo-team-right{
+    position: relative;
+}
+
+.animation{
+    width: 380px;
+    height: 470px;
+    position: absolute;
+    background: linear-gradient(to top, rgba(252, 227, 138, 0.81) 0%, rgba(243, 129, 129, 0.81) 100%);
+    z-index: 1;
+    opacity: 0;
+    transform: translate(0, 0);
+    
+    
+}
+
+.animation-middle{
+    width: 380px;
+    height: 470px;
+    position: absolute;
+    background: linear-gradient(to top, rgba(252, 227, 138, 0.81) 0%, rgba(243, 129, 129, 0.81) 100%);
+    z-index: 1;
+    opacity: 0;
+    
+}
+
+.animation-right{
+    width: 380px;
+    height: 470px;
+    position: absolute;
+    background: linear-gradient(to top, rgba(252, 227, 138, 0.81) 0%, rgba(243, 129, 129, 0.81) 100%);
+    z-index: 1;
+    opacity: 0;
+    transform: translate(0, 0);
+}
+
+.animation-back{
+    width: 380px;
+    height: 470px;
+    position: absolute;
+    background:  rgba(149, 225, 211, 0.5);
+    opacity: 0;
+}
+
+.media{
+    position: absolute;
+    width: 225px;
+    display: flex;
+    justify-content: space-around;
+    top: 50%;
+    left: 50%;
+    transform: translate(-65%, -25px);
+}
+
+.facebook{
+    position: absolute;
+    text-align: center;
+    width: 57px;
+    height: 57px;
+    background: #fce38a;
+    background-image: url(image/facebook.png);
+    background-repeat: no-repeat;
+    background-position: center;   
+    transform: translateX(-2%);
+}
+
+.twitter{
+    position: absolute;
+    text-align: center;
+    width: 57px;
+    height: 57px;
+    background: #fce38a;
+    background-image: url(image/twitter.png);
+    background-repeat: no-repeat;
+    background-position: center; 
+    transform: translateX(2%);
+    
+}
+
+.pinterest{
+    position: absolute;
+    text-align: center;
+    width: 57px;
+    height: 57px;
+    background: #fce38a;
+    background-image: url(image/pinterest.png);
+    background-repeat: no-repeat;
+    background-position: center; 
+    transform: translateX(6%);
+}
+.instagram{
+    position: absolute;
+    text-align: center;
+    width: 57px;
+    height: 57px;
+    background: #fce38a;
+    background-image: url(image/instagram.png);
+    background-repeat: no-repeat;
+    background-position: center; 
+    transform: translateX(9%);
+}
+
+.photo-team:hover .animation{
+    opacity: 1;
+    transition: 0.5s linear;
+    transform: translate(-3%, -2%);
+}
+
+.photo-team:hover .animation-back{
+    opacity: 1;
+    transition: 0.5s linear;
+}
+
+.photo-team-middle:hover .animation-middle{
+    opacity: 1;
+    transition: 0.5s linear;
+}
+
+.photo-team-right:hover .animation-right{
+    opacity: 1;
+    transition: 0.5s linear;
+    transform: translate(3%, -2%);
+}
+
+.photo-team-right:hover .animation-back{
+    opacity: 1;
+    transition: 0.5s linear;
+}
+
+
+
+.facebook:hover{
+    background-image: url(image/facebook.png);
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-color: #95e1d3;
+}
+.twitter:hover{
+    background-image: url(image/twitter.png);
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-color: #95e1d3;
+}
+.pinterest:hover{
+    background-image: url(image/pinterest.png);
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-color: #95e1d3;
+}
+.instagram:hover{
+    background-image: url(image/instagram.png);
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-color: #95e1d3;
+}
+
+.bar-menu:hover{
+    cursor: pointer;
+    color: #f38181;
+    margin-top: 25px;
+    transition: 0.5s;
+    border-bottom: 3px solid #f38181;
+    padding-bottom: 5px;
+}
